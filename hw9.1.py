@@ -3,7 +3,7 @@ import requests
 import json
 from telebot import types
 
-TOKEN = '8031398257:AAFCyRJBF_JJwHaea1M5ZhoZkdLXtEZqLxo'
+TOKEN = token
 API_ENDPOINT = 'http://127.0.0.1:1234/v1/chat/completions'
 
 bot = telebot.TeleBot(TOKEN)
